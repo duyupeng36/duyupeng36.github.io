@@ -18,6 +18,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '程序员-百科',
   description: '程序员-百科: 努力成为合格的程序员',
+  pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
 
   head: [
     // 配置站点图标
