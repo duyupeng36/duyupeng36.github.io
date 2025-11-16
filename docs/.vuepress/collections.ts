@@ -66,6 +66,8 @@ const cppstudy = defineCollection({
         {text: "基本数据类型", link: '002-基本数据类型.md'},
         {text: "处理基本数据类型", link: '003-处理基本数据类型.md'},
         {text: "决策", link: '004-决策.md'},
+        {text: "数组和循环", link: '005-数组和循环.md'},
+
       ]
     },
   ],
