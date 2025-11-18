@@ -7,7 +7,7 @@ config:
     full: true
     effect: lightning
     hero:
-      name: programmer-wiki
+      name: Programmer Wiki
       tagline: 程序员-百科
       text: 努力成为合格程序员
       actions:

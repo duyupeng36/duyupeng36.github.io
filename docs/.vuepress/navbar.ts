@@ -7,7 +7,16 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: '首页', link: '/' },
-  {text: 'C/C++', link: '/cppstudy/'},
-  { text: '博客', link: '/blog/' },
+  {
+    text: '首页',
+    link: '/'
+  },
+  {
+    text: 'C++',
+    link: '/cppstudy/'
+  },
+  {
+    text: '博客',
+    link: '/blog/'
+  },
 ])

@@ -19,7 +19,6 @@ export default defineUserConfig({
   title: '程序员-百科',
   description: '程序员-百科: 努力成为合格的程序员',
   pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
-
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
@@ -33,9 +32,9 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'duyupeng36/duyupeng36.github.io',
+    docsDir: 'docs',
+    docsBranch: 'master',
 
     /* 页内信息 */
     // editLink: true,
