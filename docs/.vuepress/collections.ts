@@ -54,11 +54,11 @@ const cppstudy = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `linkPrefix` 开头
   linkPrefix: '/cppstudy',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: 'C++20 实践入门',
+  title: 'C++',
   // 手动配置侧边栏结构
   sidebar: [
     {
-      text: 'C++20 实践入门',
+      text: 'C++20: 基础语法',
       prefix: 'basic-syntax',
       collapsed: true,
       items: [
@@ -95,6 +95,6 @@ const cppstudy = defineCollection({
  * (demoDoc 为参考示例，如果不需要它，请删除)
  */
 export default defineCollections([
-  blog,
-  cppstudy,
+    blog,
+    cppstudy
 ])
